@@ -350,7 +350,7 @@ export const usePuterStore = create<PuterStore>((set, get) => {
                     ],
                 },
             ],
-            { model: "openai/gpt-5.2-pro" }
+            { model: "upstage/solar-pro-3:free" }
         ) as Promise<AIResponse | undefined>;
     };
 
